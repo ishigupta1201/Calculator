@@ -1,0 +1,141 @@
+body{
+    background-color: #EEEDEB;
+    
+}
+
+.button{
+    height: 20px;
+    width: 20px;
+
+    background-color: #232931;
+    color: #EEEEEE;
+
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+    margin:10px;
+    padding:20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 5px #EEEEEE;
+
+    font-size:larger;
+    
+}
+
+.btns{
+    display: block;
+}
+
+.calculatorP{
+    height :575px;
+    width: 321px;
+
+    display: block;
+    padding:30px;
+
+    align-items: center;
+    align-content: center;
+    
+    background-color: #31363F;
+    border:#232931 3px solid;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #232931;    
+}
+
+.display{
+    width: 280px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 3px solid #232931;
+
+    background-color: #232931;
+    color:  #EEEEEE;
+
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+
+    font-size:xx-large;
+    text-align: end;
+}
+
+.equal{
+    width: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 1500;
+
+    text-align: center;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h3{
+    text-align: center;
+
+    font-weight: 1000;
+    font-size: xx-large;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.line1{
+    display: flex;
+}
+
+.line2{
+    display: flex;
+}
+
+.line3{
+    display: flex;
+}
+
+.line4{
+    display: flex;
+}
+
+.line5{
+    display: flex;
+}
+
+.line6{
+    display: flex;
+}
+
+.op{
+    color: #4ECCA3;
+}
+
+.project{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+
+}
+
+.text{
+    background-color: #232931;
+
+    border: 0px;
+    
+    font-size: larger;
+}
+
+
+.pressed {
+    background-color: #393E46;
+    box-shadow: 0 0 0px white;
+}

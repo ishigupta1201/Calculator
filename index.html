@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title> Calculator </title>
+        <link rel="stylesheet" href="style.css">  
+    </head>
+
+    <body>
+
+        <!-- heading-->
+        <h1>Calculator</h1> 
+        <h3>Let's play with Numbers!!</h3>
+
+        <div class="project">
+            <div class="calculatorP">
+                <!-- Display area (Screen for output)-->
+                <div class="display"> </div>
+
+                <!-- Buttons -->
+                <div class = "btns">
+
+                    <!--Row 1-->
+                    <div class = "line1">
+                        <div class="button op" data-op="x²" >x²</div>  <!--Square-->
+                        <div class="button op" data-op="%">%</div>  <!-- Modulos-->
+                        <div class="button del" data-num="del">←</div> 
+                        <div class="button clear" data-num="ac">AC</div> <!-- Clear-->
+                    </div>
+
+                    <!--Row 2-->
+                    <div class = "line2">
+                        <div class="button op" data-op="sin">sin</div>
+                        <div class="button op" data-op="cos">cos</div>
+                        <div class="button op" data-op="tan">tan</div>
+                        <div class="button op" data-op="/">/</div>  <!--Divisoin-->
+                    </div>
+
+                    <!--Row 3-->
+                    <div class = "line3"> 
+                        <div class="button num" data-num="7">7</div>
+                        <div class="button num" data-num="8">8</div>
+                        <div class="button num" data-num="9">9</div>
+                        <div class="button op" data-op="*">*</div>  <!--MUltiplication-->
+                    </div>
+
+                    <!--Row 4-->
+                    <div class = "line4">
+                        <div class="button num" data-num="4">4</div>
+                        <div class="button num" data-num="5">5</div>
+                        <div class="button num" data-num="6">6</div>
+                        <div class="button op" data-op="-">-</div>  <!--Subtraction-->
+                    </div>
+
+                    <!--Row 5-->
+                    <div class = "line5">
+                        <div class="button num" data-num="1">1</div>
+                        <div class="button num" data-num="2">2</div>
+                        <div class="button num" data-num="3">3</div>
+                        <div class="button op" data-op="+">+</div>  <!--Addition-->
+                    </div>
+
+                    <!--Row 6-->
+                    <div class = "line6">
+                        <div class="button num" data-num="0">0</div>
+                        <div class="button num" data-num=".">.</div> <!--Dot-->
+                        <div class="button equal" data-result="">=</div>  <!--Equal-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Including the jQuery and JavaScript file-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="index.js" charset="utf-8"></script>
+    </body>
+
+</html>
